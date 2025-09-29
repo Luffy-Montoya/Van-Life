@@ -7,9 +7,10 @@ import { getFirestore,
     query, 
     where 
 } from "firebase/firestore/lite"
+import { API_SECRET } from ".env"
 
 const firebaseConfig = {
-  apiKey: ${{ secrets.VAN_LIFE_API }},
+  apiKey: API_SECRET,
   authDomain: "van-life-264f5.firebaseapp.com",
   projectId: "van-life-264f5",
   storageBucket: "van-life-264f5.firebasestorage.app",
