@@ -9,7 +9,6 @@ import { getFirestore,
 } from "firebase/firestore/lite"
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_API_KEY,
   authDomain: "van-life-264f5.firebaseapp.com",
   projectId: "van-life-264f5",
   storageBucket: "van-life-264f5.firebasestorage.app",
